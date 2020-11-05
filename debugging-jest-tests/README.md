@@ -42,7 +42,7 @@ To try the example you'll need to install dependencies by running:
       "name": "Jest Current File",
       "program": "${workspaceFolder}/node_modules/.bin/jest",
       "args": [
-        "${fileBasenameNoExtension}",
+        "${relativeFile}",
         "--config",
         "jest.config.js"
       ],
